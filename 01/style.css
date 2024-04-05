@@ -1,0 +1,368 @@
+/*
+	1. 배경색 #333 으로 만들어주세요.
+
+	2. face-menu 버튼 요소들 정렬해주세요.
+	각 버튼 크기 width,heihgt 100px
+
+body {
+    background-color: #333;
+}
+
+.face-menu {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.face-menu img {
+
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+    cursor: pointer;
+}
+
+*/
+
+
+/*
+	3. 각 버튼 요소를 꾸며주세요.
+*/
+
+body {
+    background-color: #333;
+}
+
+.face-menu {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.face-menu img {
+
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+    cursor: pointer;
+	border: 10px solid #000;
+    border-radius: 100%;
+}
+
+
+/*
+	4. 각 버튼에 마우스오버 하면
+	
+	배경색 #999 색상이 되고 밑으로 살짝 움직이게 해주세요.
+*/
+
+body {
+    background-color: #333;
+}
+
+.face-menu {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.face-menu img {
+
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+    cursor: pointer;
+	border: 10px solid #000;
+    border-radius: 100%;
+	position: relative;
+    top: 0;
+    transition: all 0.4s;
+}
+
+
+.face-menu img:hover {
+    background-color: #999;
+    top: 5px;
+}
+
+
+
+
+/*
+	5. face를 만들어보세요.
+	width/height 256px
+
+
+body {
+    background-color: #333;
+}
+
+.face-menu {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.face-menu img {
+
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+    cursor: pointer;
+    border: 10px solid #000;
+    border-radius: 100%;
+    position: relative;
+    top: 0;
+    transition: all 0.4s;
+}
+
+.face-menu img:hover {
+    background-color: #999;
+    top: 5px;
+}
+
+.face {
+	width:256px;
+	height:256px;
+	background-image:url(images/smile.png);
+	background-color:white;
+	border-radius:100%;
+	
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin: auto;
+
+}
+*/
+
+
+/*
+	6. .face.smile 안에 CSS 속성을 작성해주세요.
+
+body {
+    background-color: #333;
+}
+
+.face-menu {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.face-menu img {
+
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+    cursor: pointer;
+    border: 10px solid #000;
+    border-radius: 100%;
+    position: relative;
+    top: 0;
+    transition: all 0.4s;
+}
+
+.face-menu img:hover {
+    background-color: #999;
+    top: 5px;
+}
+
+.face {
+	width:256px;
+	height:256px;
+	background-image:url(images/smile.png);
+	background-color:white;
+	border-radius:100%;
+	
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin: auto;
+
+	transition: transform 1s;
+	transform-origin: left top;
+}
+
+
+.face.smile {
+	background-image:url(images/smile.png);
+	background-color:yellow;
+	transform: scale(2) rotate(1080deg);
+}
+
+*/
+
+
+
+/*
+	7. .face.sun 안에 CSS 속성을 작성해주세요.
+
+body {
+    background-color: #333;
+}
+
+.face-menu {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.face-menu img {
+
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+    cursor: pointer;
+    border: 10px solid #000;
+    border-radius: 100%;
+    position: relative;
+    top: 0;
+    transition: all 0.4s;
+}
+
+.face-menu img:hover {
+    background-color: #999;
+    top: 5px;
+}
+
+.face {
+	width:256px;
+	height:256px;
+	background-image:url(images/smile.png);
+	background-color:white;
+	border-radius:100%;
+	
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin: auto;
+
+	transition: transform 1s;
+	transform-origin: left top;
+}
+
+
+.face.smile {
+	background-image:url(images/smile.png);
+	background-color:yellow;
+	transform: scale(2) rotate(1080deg);
+}
+
+.face.sun {
+	background-image:url(images/sun.png);
+	background-color:skyblue;
+	transform: scale(1) rotate(0deg);
+}
+
+*/
+
+
+
+/*
+	8. .face.angry 안에 CSS 속성을 작성해주세요.
+
+*/
+
+
+
+
+
+body {
+    background-color: #333;
+}
+
+.face-menu {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.face-menu img {
+
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+    cursor: pointer;
+    border: 10px solid #000;
+    border-radius: 100%;
+    position: relative;
+    top: 0;
+    transition: all 0.4s;
+}
+
+.face-menu img:hover {
+    background-color: #999;
+    top: 5px;
+}
+
+.face {
+	width:256px;
+	height:256px;
+	background-image:url(images/smile.png);
+	background-color:white;
+	border-radius:100%;
+	
+	position:absolute;/*relative해도 됨*/
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin: auto;
+	/*
+	장점 : 창 크기를 늘이고 줄여도 센터
+	단점 : 센터링만됨
+	*/
+
+	/*
+	센터링 2번째
+	
+	position:absolute;
+	left:50%:
+	top:50%
+	margin-left:-128px;
+	margin-top:-128px;
+	
+
+	장점 : 50%(센터)말고 지정가능
+	단점 : 계산해야됨 이미지 사이즈/2
+	*/
+
+	transition: transform 1s;
+	transform-origin: left top;
+	/*
+
+	transition: background-color 1s, background-image 2s;
+
+
+	transition-propety: css 속성이름;
+	transition-duration: 1s (실행시간);
+	transition-delay : 1s;
+	*/
+
+}
+
+.face.smile {
+	background-image:url(images/smile.png);
+	background-color:yellow;
+	transform: scale(2) rotate(1080deg);
+}
+
+.face.sun {
+	background-image:url(images/sun.png);
+	background-color:skyblue;
+	transform: scale(1) rotate(0deg);
+}
+
+
+.face.angry {
+	background-image:url(images/angry.png);
+	background-color:red;
+	transform:scale(0.5) rotate(180deg);
+}
