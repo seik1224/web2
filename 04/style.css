@@ -1,0 +1,806 @@
+/* @keyframes fly {
+	
+	0%	{
+		bottom:-150px; 
+	}
+	
+	50% {
+		transform:scaleX(1);
+	}
+
+	100% {
+		bottom:1000px;
+		transform:scaleX(0.4);
+	}
+
+}
+
+@keyframes wing {
+	
+	0%	{
+		transform:scale(1) rotateY(180deg);
+	}
+
+	100% {
+		transform:scale(0.8) rotateY(-180deg);
+	}
+
+}
+
+@keyframes water {
+	0%	{
+		top:20px;
+	}
+
+
+	30%	{
+		top:20px;
+	}
+
+	100% {
+		top:1000px;
+	}
+
+}
+
+@keyframes fire {
+	0%	{
+		top:-10px;
+	}
+
+
+	70%	{
+		top:-10px;
+	}
+
+	100% {
+		top:1000px;
+	}
+
+}
+
+
+
+@keyframes ff {
+	
+	0%	{
+		transform:scale(1) rotateZ(-60deg);
+	}
+
+
+	50% {
+		transform:scale(0.8) rotateZ(0deg);
+	}
+
+	100% {
+		transform:scale(0.8) rotateZ(-60deg);
+	}
+
+}
+
+@keyframes fff {
+	
+	0%	{
+		transform:scale(1) rotateZ(60deg);
+	}
+
+
+	50% {
+		transform:scale(0.8) rotateZ(0deg);
+	}
+
+	100% {
+		transform:scale(0.8) rotateZ(60deg);
+	}
+
+}
+
+@keyframes ffff {
+	
+	0%	{
+		transform:scale(1) rotateZ(0deg);
+	}
+
+
+	50% {
+		transform:scale(0.8) rotateZ(0deg);
+	}
+
+	100% {
+		transform:scale(0.8) rotateZ(1800deg);
+	}
+
+}
+
+@keyframes a {
+	0%	{
+		transform:scale(1.2); 
+	}
+
+	100% {
+		transform:scale(0.8);
+	}
+} */
+
+/*
+	1. background색을 원하는 색으로 넣어주세요.
+
+	2. 새의 몸통을 원하는대로 꾸며주세요.
+	- 센터정렬하면서 중앙보다 살짝 더 아래 위치하게 해주세요.
+
+
+body {
+	background-color:skyblue;
+}
+
+.bird {
+
+	position:absolute;
+	bottom:200px;
+	left:0;
+	right:0;
+	margin:auto;
+
+	width:150px;
+	height:150px;
+	background-color:white;
+
+	border-top-left-radius: 65px;
+	border-top-right-radius: 65px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+}
+*/
+
+
+/*
+	2. 새의 머리깃털을 꾸며주세요.
+	- 머리깃털 하나는 수도클래스 이용하여 만들어주세요.
+
+body {
+	background-color:skyblue;
+}
+
+.bird {
+
+	position:absolute;
+	bottom:200px;
+	left:0;
+	right:0;
+	margin:auto;
+
+	width:150px;
+	height:150px;
+	background-color:white;
+
+	border-top-left-radius: 65px;
+	border-top-right-radius: 65px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+}
+
+
+.bird:before {
+
+	content:'';
+	display:block;
+	width:25px;
+	height:60px;
+	background-color:pink;
+
+	position:absolute;
+	left:30px;
+	right:0;
+	top:-50px;
+	margin:auto;
+
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+	transform-origin:bottom;
+
+	transform:rotateZ(30deg);
+
+	border-top:5px solid yellow;
+	border-right:5px solid yellow;
+}
+
+.bird .feather02 {
+
+	width:25px;
+	height:60px;
+	background-color:yellow;
+
+	position:absolute;
+	left:-30px;
+	right:0;
+	top:-50px;
+	margin:auto;
+
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+	transform-origin:bottom;
+
+	transform:rotateZ(-30deg);
+	border-top:5px solid pink;
+	border-right:5px solid pink;
+}
+
+.bird .feather01 {
+
+	width:25px;
+	height:60px;
+	background-color:green;
+
+	position:absolute;
+	left:0px;
+	right:0;
+	top:-50px;
+	margin:auto;
+
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+	transform-origin:bottom;
+	border-top:5px solid white;
+	border-right:5px solid white;
+}
+
+*/
+
+
+
+/*
+	3. 새의 눈을 꾸며주세요.
+	- 수도클래스를 이용하여 눈물 혹은 선글라스 등의 장식도 만들어주세요.
+
+
+body {
+	background-color:skyblue;
+}
+
+.bird {
+
+	position:absolute;
+	bottom:200px;
+	left:0;
+	right:0;
+	margin:auto;
+
+	width:150px;
+	height:150px;
+	background-color:white;
+
+	border-top-left-radius: 65px;
+	border-top-right-radius: 65px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+	text-align:center;
+}
+
+
+.bird:before {
+
+	content:'';
+	display:block;
+	width:25px;
+	height:60px;
+	background-color:pink;
+
+	position:absolute;
+	left:30px;
+	right:0;
+	top:-50px;
+	margin:auto;
+
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+	transform-origin:bottom;
+
+	transform:rotateZ(30deg);
+
+	border-top:5px solid yellow;
+	border-right:5px solid yellow;
+}
+
+.bird .feather02 {
+
+	width:25px;
+	height:60px;
+	background-color:yellow;
+
+	position:absolute;
+	left:-30px;
+	right:0;
+	top:-50px;
+	margin:auto;
+
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+	transform-origin:bottom;
+
+	transform:rotateZ(-30deg);
+	border-top:5px solid pink;
+	border-right:5px solid pink;
+}
+
+.bird .feather01 {
+
+	width:25px;
+	height:60px;
+	background-color:green;
+
+	position:absolute;
+	left:0px;
+	right:0;
+	top:-50px;
+	margin:auto;
+
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+	transform-origin:bottom;
+	border-top:5px solid white;
+	border-right:5px solid white;
+}
+
+.bird .eye:before {
+	content:'';
+	display:inline-block;
+	
+	width:14px;
+	height:16px;
+
+	background-color:blue;
+	position:relative;
+	top:18px;
+
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.bird .eye {
+	width:15px;
+	height:15px;
+	background-color:#000;
+	border-radius:100%;
+	display:inline-block;
+
+	margin:40px 17px;;
+}
+
+*/
+
+
+
+/*
+	4. 입을 만들어주세요.
+
+body {
+	background-color:skyblue;
+}
+
+.bird {
+
+	position:absolute;
+	bottom:200px;
+	left:0;
+	right:0;
+	margin:auto;
+
+	width:150px;
+	height:150px;
+	background-color:white;
+
+	border-top-left-radius: 65px;
+	border-top-right-radius: 65px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+	text-align:center;
+}
+
+
+.bird:before {
+
+	content:'';
+	display:block;
+	width:25px;
+	height:60px;
+	background-color:pink;
+
+	position:absolute;
+	left:30px;
+	right:0;
+	top:-50px;
+	margin:auto;
+
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+	transform-origin:bottom;
+
+	transform:rotateZ(30deg);
+
+	border-top:5px solid yellow;
+	border-right:5px solid yellow;
+}
+
+.bird .feather02 {
+
+	width:25px;
+	height:60px;
+	background-color:yellow;
+
+	position:absolute;
+	left:-30px;
+	right:0;
+	top:-50px;
+	margin:auto;
+
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+	transform-origin:bottom;
+
+	transform:rotateZ(-30deg);
+	border-top:5px solid pink;
+	border-right:5px solid pink;
+}
+
+.bird .feather01 {
+
+	width:25px;
+	height:60px;
+	background-color:green;
+
+	position:absolute;
+	left:0px;
+	right:0;
+	top:-50px;
+	margin:auto;
+
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+	transform-origin:bottom;
+	border-top:5px solid white;
+	border-right:5px solid white;
+}
+
+.bird .eye:before {
+	content:'';
+	display:inline-block;
+	
+	width:14px;
+	height:16px;
+
+	background-color:blue;
+	position:relative;
+	top:18px;
+
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.bird .eye {
+	width:15px;
+	height:15px;
+	background-color:#000;
+	border-radius:100%;
+	display:inline-block;
+
+	margin:40px 17px;;
+}
+
+.bird .mouth {
+
+	animation : a 0.1s infinite ;
+	width:0;
+	height:0;
+	border: 20px solid orange;
+	margin: 0 auto;
+	
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+
+	border-color:orange transparent transparent transparent;
+	position:relative;
+	top:-20px;
+	border-bottom:10px dotted red;
+}
+
+
+*/
+
+
+
+/*
+	5. 날개를 만들어주세요.
+
+.bird .wing {
+	
+	width:70px;
+	height:100px;
+	background-color:orange;
+	position:absolute;
+	top:50px;
+	left:0;
+}
+
+.bird .wing.left {
+	left:0;
+
+	border-bottom-left-radius:50px;
+	border-top-right-radius:50px;
+
+	border-bottom:5px solid yellow;
+
+	transform-origin:left top;
+	transform:rotateY(180deg);
+
+}
+
+.bird .wing.right {
+	left:auto;
+	right:0;
+
+	border-bottom-right-radius:50px;
+	border-top-left-radius:50px;
+
+	border-bottom:5px solid yellow;
+
+	transform-origin:right top;
+	transform:rotateY(180deg);
+	
+}
+*/
+
+/*
+	6. 수도클래스를 이용하여 꼬리를 만들어주세요.
+
+.bird:after {
+	content:'';
+	display:inline-block;
+	width:30px;
+	height:50px;
+	background-color:red;
+	margin:40px 10px;
+
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+
+	position:relative;
+	top:-10px;
+}
+
+*/
+
+
+
+/*
+	7. 애니메이션을 마음껏 걸어주세요.
+	-> 애니메이션은 8가지 이상 만들어주세요.
+*/
+
+
+
+body {
+	background-color:skyblue;
+}
+
+.bird {
+	animation-name:fly;
+	animation-duration:2s;
+	animation-iteration-count: infinite;
+	animation-timing-function:ease-in;
+	/*animation-direction:reverse;*/
+
+	/*animation : fly 1s infinite alternate;*/
+	
+	position:absolute;
+	bottom:200px;
+	left:0;
+	right:0;
+	margin:auto;
+
+	width:150px;
+	height:150px;
+	background-color:white;
+
+	border-top-left-radius: 65px;
+	border-top-right-radius: 65px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+	text-align:center;
+
+	
+}
+
+
+
+.bird:before {
+	animation :fff 0.3s infinite ;
+	
+	content:'';/*글씨를 넣는 속성이기 때문에 인라인*/
+	display:block;/*따라서 넣어줘야함*/
+	width:25px;
+	height:60px;
+	background-color:pink;
+
+	position:absolute;
+	left:30px;
+	right:0;
+	top:-50px;
+	margin:auto;
+
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+	transform-origin:bottom;
+
+	transform:rotateZ(30deg);
+
+	border-top:5px solid yellow;
+	border-right:5px solid yellow;
+}
+
+.bird .feather02 {
+	animation :ff 0.3s infinite ;
+
+	width:25px;
+	height:60px;
+	background-color:yellow;
+
+	position:absolute;
+	left:-30px;
+	right:0;
+	top:-50px;
+	margin:auto;
+
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+	transform-origin:bottom;
+
+	transform:rotateZ(-30deg);
+	border-top:5px solid pink;
+	border-right:5px solid pink;
+}
+
+.bird .feather01 {
+	animation :ffff 2s infinite ;
+
+	width:25px;
+	height:60px;
+	background-color:green;
+
+	position:absolute;
+	left:0px;
+	right:0;
+	top:-50px;
+	margin:auto;
+
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+	transform-origin:bottom;
+	border-top:5px solid white;
+	border-right:5px solid white;
+}
+
+.bird .eye:before {
+
+	animation : water 2s infinite ;
+	content:'';/*글씨를 넣는 속성이기 때문에 인라인*/
+	display:inline-block;/*따라서 넣어줘야함*/
+	
+	width:14px;
+	height:16px;
+
+	background-color:blue;
+	position:relative;
+	top:18px;
+
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.bird .eye {
+	width:15px;
+	height:15px;
+	background-color:#000;
+	border-radius:100%;
+	display:inline-block;
+	/*텍스트 인라인속성은 부모에게 text-align:center; 주면 가운데 정렬이 됨*/
+
+	margin:40px 17px;;
+}
+
+.bird .mouth {
+
+	animation : a 0.1s infinite ;
+	width:0;
+	height:0;
+	border: 20px solid orange;
+	margin: 0 auto;
+	
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+
+	border-color:orange transparent transparent transparent;
+	position:relative;
+	top:-20px;
+	border-bottom:10px dotted red;
+}
+
+.bird .wing {
+	
+	width:70px;
+	height:100px;
+	background-color:orange;
+	position:absolute;
+	top:50px;
+	left:0;/*만약 left0 붙여주면 right:0 안먹힘  left 위치 초기화시켜야함*/
+}
+
+.bird .wing.left {
+	left:0;
+
+	border-bottom-left-radius:50px;
+	border-top-right-radius:50px;
+
+	border-bottom:5px solid yellow;
+
+	transform-origin:left top;
+	transform:rotateY(180deg);
+
+	animation : wing 0.3s infinite alternate;
+}
+
+.bird .wing.right {
+	left:auto;/*=>left위치 초기화*/
+	right:0;
+
+	border-bottom-right-radius:50px;
+	border-top-left-radius:50px;
+
+	border-bottom:5px solid yellow;
+
+	transform-origin:right top;
+	transform:rotateY(180deg);
+	
+	animation : wing 0.3s infinite alternate;
+}
+
+.bird:after {
+
+	animation : fire 2s infinite ;
+
+	content:'';/*글씨를 넣는 속성이기 때문에 인라인*/
+	display:inline-block;/*따라서 넣어줘야함*/
+	width:30px;
+	height:50px;
+	background-color:red;
+	margin:40px 10px;
+
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+
+	position:relative;
+	top:-10px;
+}
+

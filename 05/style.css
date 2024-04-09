@@ -1,0 +1,515 @@
+body, ul, li, h3, p{
+	margin:0px;
+	padding:0;
+}
+
+a	{
+	text-decoration:none;
+	color: gray;
+}
+
+li {
+	list-style-type:none;
+}
+
+img {
+	vertical-align:bottom;/*이미지 밑에 공간 초기화*/
+}
+
+
+
+
+/*
+	1. 배경색 f4f4f4를 설정하고
+	큰 향수 이미지를 배경 이미지로 붙여주세요.
+
+body {
+	background-color:#f4f4f4;
+	background-image:url(images/big-perfume.png);
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	background-attachment:fixed;
+	background-size:35%;
+}
+
+
+*/
+
+
+/*
+	2. Sidebar 레이아웃만 잡아주세요.
+	너비값 300px
+
+body {
+	background-color:#f4f4f4;
+	background-image:url(images/big-perfume.png);
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	background-attachment:fixed;
+	background-size:35%;
+}
+
+.sidebar {
+	background-color:#222;
+	width:300px;
+	height:100%;
+	position:fixed;
+	left:0;
+	top:0;
+}
+
+
+*/
+
+
+/*
+	3. Sidebar 안을 꾸며주세요.
+
+body {
+	background-color:#f4f4f4;
+	background-image:url(images/big-perfume.png);
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	background-attachment:fixed;
+	background-size:35%;
+}
+
+.sidebar {
+	background-color:#222;
+	width:300px;
+	height:100%;
+	position:fixed;
+	left:0;
+	top:0;
+}
+
+.sidebar .logo {
+	display:block;
+	width:200px;
+	height:60px;
+	background-image:url(images/logo.png);
+
+	text-indent:-9999px;
+	margin:50px auto;
+}
+
+.sidebar ul {
+	margin-bottom:30px;
+	text-align:center; 
+}
+
+.sidebar ul li a{
+	display: block;
+	height:30px;
+	line-height:30px;
+
+}
+*/
+
+
+
+
+/*
+	4. 메뉴에 hover하면 배경색을 검정색으로 바꿔주세요. 
+
+body {
+	background-color:#f4f4f4;
+	background-image:url(images/big-perfume.png);
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	background-attachment:fixed;
+	background-size:35%;
+}
+
+.sidebar {
+	background-color:#222;
+	width:300px;
+	height:100%;
+	position:fixed;
+	left:0;
+	top:0;
+}
+
+.sidebar .logo {
+	display:block;
+	width:200px;
+	height:60px;
+	background-image:url(images/logo.png);
+
+	text-indent:-9999px;
+	margin:50px auto;
+}
+
+.sidebar ul {
+	margin-bottom:30px;
+	text-align:center; 
+}
+
+.sidebar ul li a{
+	display: block;
+	height:30px;
+	line-height:30px;
+
+}
+
+.sidebar ul li a:hover{
+	background-color:rgba(0,0,0,0.5);
+}
+*/
+
+
+
+/*
+	5. 콘텐츠 영역을 잡아주세요.
+	너비값은 1000px
+
+
+body {
+	background-color:#f4f4f4;
+	background-image:url(images/big-perfume.png);
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	background-attachment:fixed;
+	background-size:35%;
+}
+
+.sidebar {
+	background-color:#222;
+	width:300px;
+	height:100%;
+	position:fixed;
+	left:0;
+	top:0;
+}
+
+.sidebar .logo {
+	display:block;
+	width:200px;
+	height:60px;
+	background-image:url(images/logo.png);
+
+	text-indent:-9999px;
+	margin:50px auto;
+}
+
+.sidebar ul {
+	margin-bottom:30px;
+	text-align:center; 
+}
+
+.sidebar ul li a{
+	display: block;
+	height:30px;
+	line-height:30px;
+
+}
+
+.sidebar ul li a:hover{
+	background-color:rgba(0,0,0,0.5);
+}
+
+.contents {
+	margin-left:300px;
+	width:1000px;
+}
+
+*/
+
+
+
+
+/*
+	6. 각 콘텐츠를 만들어주세요.
+
+body {
+	background-color:#f4f4f4;
+	background-image:url(images/big-perfume.png);
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	background-attachment:fixed;
+	background-size:35%;
+}
+
+.sidebar {
+	background-color:#222;
+	width:300px;
+	height:100%;
+	position:fixed;
+	left:0;
+	top:0;
+}
+
+.sidebar .logo {
+	display:block;
+	width:200px;
+	height:60px;
+	background-image:url(images/logo.png);
+
+	text-indent:-9999px;
+	margin:50px auto;
+}
+
+.sidebar ul {
+	margin-bottom:30px;
+	text-align:center; 
+}
+
+.sidebar ul li a{
+	display: block;
+	height:30px;
+	line-height:30px;
+
+}
+
+.sidebar ul li a:hover{
+	background-color:rgba(0,0,0,0.5);
+}
+
+.contents {
+	margin-left:300px;
+	width:1000px;
+}
+
+.contents li{
+	float:left;
+	margin-left:20px;
+	margin-bottom:20px;
+	position:relative;
+
+	box-shadow:0 0 5px rgba(0,0,0,0.3);
+}
+
+.contents li .desc {
+	position:absolute;
+	left:0;
+	bottom:0;
+	
+	text-align:center;
+	width:100%;
+
+	color:#8e4389;
+	padding:20px 0;
+	background: linear-gradient(to bottom,  rgba(224,224,224,0) 0%,rgba(237,222,244,1) 100%);
+	background: -moz-linear-gradient(top,  rgba(224,224,224,0) 0%, rgba(237,222,244,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(224,224,224,0) 0%,rgba(237,222,244,1) 100%);
+	background: -o-linear-gradient(top,  rgba(224,224,224,0) 0%,rgba(237,222,244,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(224,224,224,0) 0%,rgba(237,222,244,1) 100%);
+}
+
+.contents li .desc h3 {
+	color:purple;
+	margin-bottom:5px;
+}
+
+*/
+
+/*
+	max-width로 바꿔주기
+	7. 태블릿 1024px 이하일때 반응형으로 바꿔주세요
+
+*/
+
+
+/*
+	8. 모바일 480px 이하일때 반응형으로 바꿔주세요
+*/
+
+
+
+
+
+/*
+position:fixed; 하기 전에는
+html, body {
+	height:100%
+}
+해야 높이가 100%됨
+*/
+
+body {
+	background-color:#f4f4f4;
+	background-image:url(images/big-perfume.png);
+	background-repeat:no-repeat;
+	background-position:right bottom; /*컨텐츠에 맞게 아래로 배치되기 때문에
+background-attachment:fixed; 해줘야함
+	*/
+	background-attachment:fixed;/*스크롤에 영향안받음*/
+
+	background-size:35%;/*새로나온속성*/
+}
+
+.sidebar {
+	background-color:#222;
+	width:300px;
+	height:100%;
+	position:fixed;/*스크롤 제외 하면 나머진 absolute와 동일*/
+	left:0;
+	top:0;
+}
+
+.sidebar .logo {
+	
+	display:block;/*a태그(인라인) 이기 때문에 너비 높이 주려면 
+	꼭 해줘야 함*/
+	width:200px;
+	height:60px;
+	background-image:url(images/logo.png);
+
+	text-indent:-9999px;
+
+	margin:50px auto;
+}
+
+.sidebar ul {
+	margin-bottom:30px;
+	text-align:center; 
+}
+
+.sidebar ul li a{
+	display: block;
+	height:30px;
+	line-height:30px;
+
+}
+
+.sidebar ul li a:hover{
+	background-color:rgba(0,0,0,0.5);
+}
+
+.contents {
+	margin-left:300px;
+	max-width:1000px;
+}
+
+.contents li{
+	float:left;
+	margin-left:20px;
+	margin-bottom:20px;
+	position:relative;
+
+	box-shadow:0 0 5px rgba(0,0,0,0.3);
+}
+
+.contents li .desc {
+	position:absolute;
+	left:0;
+	bottom:0;
+	
+	text-align:center;/*border를 주면 알 수 있음*/
+	width:100%;
+
+	color:#8e4389;
+
+	padding:20px 0;/*상하단, 좌우*/
+
+/*
+	각 브라우저에는 CSS 를 해석하고 웹페이지를 렌더링하는 엔진이 있다.
+	모든 엔진이 CSS 를 같은 방식으로 해석하지는 않는다.
+	특히 실험적인 기능이나 새로 등장하는 기능들에 대해서는 더 그렇지 않은데, CSS 접두어는 이러한 경우에 중요한 역할을 한다.
+	CSS 사양 표준화가 점점 더 잘 이루어지며 접두어의 필요성이 점점 줄어들고 있다.
+	그러나 특정 상황, 구형 브라우저와의 호환성을 보장하는데는 여전히 중요하다.
+*/
+background: -moz-linear-gradient(top,  rgba(224,224,224,0) 0%, rgba(237,222,244,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(224,224,224,0)), color-stop(100%,rgba(237,222,244,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(224,224,224,0) 0%,rgba(237,222,244,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(224,224,224,0) 0%,rgba(237,222,244,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(224,224,224,0) 0%,rgba(237,222,244,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(224,224,224,0) 0%,rgba(237,222,244,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e0e0e0', endColorstr='#eddef4',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+
+.contents li .desc h3 {
+	color:purple;
+	margin-bottom:5px;
+}
+
+/*Media Query*/
+/*Desktop*/
+@media only screen and (min-width:1200px) {
+	
+}
+
+/*Tablet*/
+@media only screen and (max-width:1024px) {
+
+	body {
+		background-image:none;
+	}
+
+	.sidebar	{
+		width:100%;
+		height:auto;
+		z-index:10;
+		text-align:center;
+	}
+
+	.sidebar ul {
+		margin:0;		
+		display:inline-block;/*ul이 가운데 정렬 되야 하므로 ul에 줘야함*/
+		vertical-align:bottom;
+	}
+
+	.sidebar ul li {
+		float:left;
+		
+	}
+	
+	.sidebar ul li a {
+		height:50px;
+		line-height:50px;
+		padding:0 15px;
+	}
+
+	.sidebar .logo {
+		margin-bottom:20px;
+	}
+
+	.contents {
+		margin:0;
+		padding-top:200px;
+	}
+
+	.contents li {
+		margin:0;
+		box-shadow:none;
+		width:33.3%;
+	}
+
+	.contents li img{
+		width:100%;
+	}
+
+}
+
+/*Mobile*/
+@media only screen and (max-width:480px) {
+
+	.sidebar .logo {
+		margin:10px;
+		width:100px;
+		height:30px;
+		background-size:100%;
+	}
+	
+	.sidebar .gnb {
+		position:absolute;
+		top:0;
+		right:0;
+		/*float:right;를 해줄경우 logo도 다시 옮겨야 함*/
+	}
+
+	.sidebar .sns-nb{
+		display:none;
+	}
+
+	.contents {
+		padding-top:50px;
+	}
+
+	.contents li {
+		width:100%;
+	}
+}

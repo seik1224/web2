@@ -1,0 +1,791 @@
+/* CSS Reset */
+
+body, ul, h1, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+body {
+	background-color:#64727f;
+}
+
+/*
+	1. header 로고영역을 만들어주세요.
+	배경색 c9e5ff
+	로고 너비값 280px / 높이값 50px
+
+
+.wrapper {
+	padding:0 30px;
+	margin : 0 auto;
+}
+
+.header {
+	background-color:#c9e5ff;
+}
+
+.header .logo {
+	display:inline-block;
+	background-image:url(images/logo.png);
+	width:280px;
+	height:50px;
+	text-indent:-9999px;
+	margin:20px 0;
+}
+*/
+
+
+
+
+/*
+	2. gnb 영역을 만들어주세요.
+	배경색 505c66
+
+.wrapper {
+	padding:0 30px;
+	margin : 0 auto;
+}
+
+.header {
+	background-color:#c9e5ff;
+}
+
+.header .logo {
+	display:inline-block;
+	background-image:url(images/logo.png);
+	width:280px;
+	height:50px;
+	text-indent:-9999px;
+	margin:20px 0;
+}
+
+.header .gnb {
+	background-color:#505c66;
+	overflow:hidden;
+}
+
+.header .gnb li {
+	float:left;	
+	
+}
+
+.header .gnb li a {
+	color:white;
+	padding:0 20px;
+	display:block;
+	height:50px;
+	line-height:50px;
+}
+
+*/
+
+
+/*
+	3. a태그에 마우스오버 기능을 넣고 풍선이미지를 배치해주세요.
+
+.wrapper {
+	padding:0 30px;
+	margin : 0 auto;
+	position:relative;
+}
+
+.header {
+	background-color:#c9e5ff;
+}
+
+.header .logo {
+	display:inline-block;
+	background-image:url(images/logo.png);
+	width:280px;
+	height:50px;
+	text-indent:-9999px;
+	margin:20px 0;
+}
+
+.header .gnb {
+	background-color:#505c66;
+	overflow:hidden;
+}
+
+.header .gnb li {
+	float:left;	
+	
+}
+
+.header .gnb li a {
+	color:white;
+	padding:0 20px;
+	display:block;
+	height:50px;
+	line-height:50px;
+}
+
+.header .gnb li a:hover {
+	background-color:rgba(0,0,0,0.2);
+}
+
+
+.header .point {
+	position:absolute;;
+	right:-30px;
+	top:0;
+	z-index:50;
+}
+
+*/
+
+
+
+
+
+/*
+	4. 컨텐츠 영역의 레이아웃을 잡아주세요.
+	배경색 282e33
+
+.wrapper {
+	padding:0 30px;
+	margin : 0 auto;
+	position:relative;
+}
+
+.header {
+	background-color:#c9e5ff;
+}
+
+.header .logo {
+	display:inline-block;
+	background-image:url(images/logo.png);
+	width:280px;
+	height:50px;
+	text-indent:-9999px;
+	margin:20px 0;
+}
+
+.header .gnb {
+	background-color:#505c66;
+	overflow:hidden;
+}
+
+.header .gnb li {
+	float:left;	
+	
+}
+
+.header .gnb li a {
+	color:white;
+	padding:0 20px;
+	display:block;
+	height:50px;
+	line-height:50px;
+}
+
+.header .gnb li a:hover {
+	background-color:rgba(0,0,0,0.2);
+}
+
+
+.header .point {
+	position:absolute;;
+	right:-30px;
+	top:0;
+	z-index:50;
+}
+
+
+.contents {
+	background-color:#282e33;
+	margin-bottom:50px;
+	overflow:hidden;
+	padding:10px;
+}
+
+.contents li {
+	
+	float:left;
+	width:20%;
+
+}
+
+.contents li .inner{
+	text-align:center;
+	margin:10px;
+	background-color:black;
+}
+
+*/
+
+
+
+/*
+	5. 컨텐츠 영역을 잡아주세요.
+	h3 색상 77aaff
+
+.wrapper {
+	padding:0 30px;
+	margin : 0 auto;
+	position:relative;
+}
+
+.header {
+	background-color:#c9e5ff;
+}
+
+.header .logo {
+	display:inline-block;
+	background-image:url(images/logo.png);
+	width:280px;
+	height:50px;
+	text-indent:-9999px;
+	margin:20px 0;
+}
+
+.header .gnb {
+	background-color:#505c66;
+	overflow:hidden;
+}
+
+.header .gnb li {
+	float:left;	
+	
+}
+
+.header .gnb li a {
+	color:white;
+	padding:0 20px;
+	display:block;
+	height:50px;
+	line-height:50px;
+}
+
+.header .gnb li a:hover {
+	background-color:rgba(0,0,0,0.2);
+}
+
+
+.header .point {
+	position:absolute;;
+	right:-30px;
+	top:0;
+	z-index:50;
+}
+
+
+.contents {
+	background-color:#282e33;
+	margin-bottom:50px;
+	overflow:hidden;
+	padding:10px;
+}
+
+.contents li {
+	
+	float:left;
+	width:20%;
+
+}
+
+.contents li .inner{
+	text-align:center;
+	margin:10px;
+	background-color:black;
+}
+
+.contents li .inner h3{
+	color:#77aaff;
+	font-size:20px;
+	padding:15px 10px 0 20px;
+}
+
+.contents li .inner p{
+	color:#999;
+	padding:20px;
+	font-size:12px;
+}
+
+
+
+.contents li img {
+	width:100%;
+}
+*/
+
+
+
+
+
+/*
+	6. 아이콘 영역 수도클래스로 만들어주세요.
+
+.wrapper {
+	padding:0 30px;
+	margin : 0 auto;
+	position:relative;
+}
+
+.header {
+	background-color:#c9e5ff;
+}
+
+.header .logo {
+	display:inline-block;
+	background-image:url(images/logo.png);
+	width:280px;
+	height:50px;
+	text-indent:-9999px;
+	margin:20px 0;
+}
+
+.header .gnb {
+	background-color:#505c66;
+	overflow:hidden;
+}
+
+.header .gnb li {
+	float:left;	
+	
+}
+
+.header .gnb li a {
+	color:white;
+	padding:0 20px;
+	display:block;
+	height:50px;
+	line-height:50px;
+}
+
+.header .gnb li a:hover {
+	background-color:rgba(0,0,0,0.2);
+}
+
+
+.header .point {
+	position:absolute;;
+	right:-30px;
+	top:0;
+	z-index:50;
+}
+
+
+.contents {
+	background-color:#282e33;
+	margin-bottom:50px;
+	overflow:hidden;
+	padding:10px;
+}
+
+.contents li {
+	
+	float:left;
+	width:20%;
+
+}
+
+.contents li .inner{
+	text-align:center;
+	margin:10px;
+	background-color:black;
+}
+
+.contents li .inner h3{
+	color:#77aaff;
+	font-size:20px;
+	padding:15px 10px 0 20px;
+}
+
+.contents li .inner p{
+	color:#999;
+	padding:20px;
+	font-size:12px;
+}
+
+.contents li .inner p:after{
+	content:'';
+	display:block;
+	height:50px;
+	background-image:url(images/sprite-btn.png);
+	width:152px;	
+	margin:0 auto;
+	margin-top:10px;
+}
+
+
+.contents li img {
+	width:100%;
+}
+
+	
+*/
+
+
+
+
+/*
+	7. FOOTER영역을 만들어주세요.
+	배경색 282e33
+
+.wrapper {
+	padding:0 30px;
+	margin : 0 auto;
+	position:relative;
+}
+
+.header {
+	background-color:#c9e5ff;
+}
+
+.header .logo {
+	display:inline-block;
+	background-image:url(images/logo.png);
+	width:280px;
+	height:50px;
+	text-indent:-9999px;
+	margin:20px 0;
+}
+
+.header .gnb {
+	background-color:#505c66;
+	overflow:hidden;
+}
+
+.header .gnb li {
+	float:left;	
+	
+}
+
+.header .gnb li a {
+	color:white;
+	padding:0 20px;
+	display:block;
+	height:50px;
+	line-height:50px;
+}
+
+.header .gnb li a:hover {
+	background-color:rgba(0,0,0,0.2);
+}
+
+
+.header .point {
+	position:absolute;;
+	right:-30px;
+	top:0;
+	z-index:50;
+}
+
+
+.contents {
+	background-color:#282e33;
+	margin-bottom:50px;
+	overflow:hidden;
+	padding:10px;
+}
+
+.contents li {
+	
+	float:left;
+	width:20%;
+
+}
+
+.contents li .inner{
+	text-align:center;
+	margin:10px;
+	background-color:black;
+}
+
+.contents li .inner h3{
+	color:#77aaff;
+	font-size:20px;
+	padding:15px 10px 0 20px;
+}
+
+.contents li .inner p{
+	color:#999;
+	padding:20px;
+	font-size:12px;
+}
+
+.contents li .inner p:after{
+	content:'';
+	display:block;
+	height:50px;
+	background-image:url(images/sprite-btn.png);
+	width:152px;	
+	margin:0 auto;
+	margin-top:10px;
+}
+
+
+.contents li img {
+	width:100%;
+}
+
+
+.footer {
+	background-color:#282e33;
+	padding:40px 0;
+	color:#999;
+	border-top:1px solid white;
+	
+}
+*/
+
+
+
+
+
+/*
+	8. 와이드 스크린에서 widht 값이 1200을 넘지않게 해주세요.
+*/
+
+/* 
+	9. 태블릿에서 컨텐츠가 3개씩 나오게 해주세요.
+*/
+
+/*
+	10. 작은 태블릿에서 컨텐츠는 2개씩 로고와 gnb수정해주세요.
+*/
+
+/*
+	11. 모바일영역에서 컨텐츠 1개씩 나오게 해주세요.
+*/
+
+
+
+.wrapper {
+	padding:0 30px;/*
+	안정적으로 크기변동되도 레이아웃 유지되게
+	width가 변해도 양 옆의 공간이 있게
+	*/
+	
+	margin : 0 auto;
+	position:relative;
+}
+
+.header {
+	background-color:#c9e5ff;
+}
+
+.header .logo {
+	display:inline-block;
+	/*
+	마진겹침 !!!!!!
+
+	display:block; 을 했을 경우
+
+	header의 margin-top과 .logo의 margin-top이 겹침
+	
+	해결방법1 : 부모(wrapper)에게 overflow:hidden;을 줌
+	=> 단점 : img가 짤림..
+	
+	해결방법2 : 부모(wrapper)에게 border-top:1px solid red;를 줌
+	=> 많이 쓰이지는 않음
+	
+	해결방법3 : 마진겹침은 블럭과 블럭 사이에만 일어나는 일임
+	=> display:inline-block; 으로 만들어줌
+	
+	inline-block;의 장점 
+	: 컨텐츠 크기 만큼 줄어듬
+
+	*/
+	background-image:url(images/logo.png);
+	width:280px;
+	height:50px;
+	text-indent:-9999px;
+	margin:20px 0;
+}
+
+.header .gnb {
+	background-color:#505c66;
+	overflow:hidden;
+}
+
+.header .gnb li {
+	float:left;	
+	
+}
+
+.header .gnb li a {
+	color:white;
+	padding:0 20px;
+	display:block;
+	height:50px;
+	line-height:50px;
+
+	/*
+	a태그는 inline이므로
+	padding:0 20px;
+	display:block;
+
+	=> padding :20px; 만 해도 되던데..?
+	*/
+}
+
+.header .gnb li a:hover {
+	background-color:rgba(0,0,0,0.2);
+}
+
+
+.header .point {
+	position:absolute;;
+	right:-30px;
+	top:0;
+	z-index:50;
+}
+
+.contents {
+	background-color:#282e33;
+	margin-bottom:50px;
+	overflow:hidden;
+	padding:10px;
+}
+
+.contents li {
+	
+	float:left;
+	width:20%;
+
+}
+
+.contents li .inner{
+	text-align:center;
+	margin:10px;
+	background-color:black;
+}
+
+.contents li .inner h3{
+	color:#77aaff;
+	font-size:20px;
+	padding:15px 10px 0 20px;
+}
+
+.contents li .inner p{
+	color:#999;
+	padding:20px;
+	font-size:12px;
+}
+
+.contents li .inner p:after{
+	content:'';
+	display:block;
+	height:50px;
+	background-image:url(images/sprite-btn.png);
+	width:152px;	
+	margin:0 auto;
+	margin-top:10px;
+}
+
+
+.contents li img {
+	width:100%;
+}
+
+.footer {
+	background-color:#282e33;
+	padding:40px 0;
+	color:#999;
+	border-top:1px solid white;
+	
+}
+
+
+/* MediaQuery */
+
+/* Desktop */
+@media only screen and (min-width:1200px) {
+	.wrapper{
+		max-width:1200px;
+		/*.wrapper에 width가 1200 되어 있으면 문제이므로 반응형에 
+		max-width로 넣어줌*/
+	}
+}
+
+/* Tablet Landscape */
+@media only screen and (max-width:1024px) {
+		.contents li {
+		width:33.3%;
+	}
+}
+
+
+
+/* Tablet Portrait */
+@media only screen and (max-width: 768px) {
+	.contents li {
+		width:50%;
+	}
+
+	.header .point {
+		display:none;
+	}
+
+	.header {	
+		text-align:center;
+	}
+	
+	
+	.header .gnb li {
+		width:20%;
+	}
+	
+	.header .gnb li a {
+		padding:0;
+	}
+	
+
+	
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+	.header {
+		position:fixed;
+		z-index:100;
+		width:100%;
+		top:0;
+		box-shadow:0 5px 10px rgba(0,0,0,0.7);
+	}
+
+	.header .logo {
+		margin:10px 0;
+	}
+
+	.wrapper {
+		padding:0;
+	}
+
+	.contents {
+		margin-top:120px;
+		padding:0;
+		margin-bottom:0;
+	}
+
+	.contents li {	
+		width:100%;
+	}
+	
+	.header .gnb li {
+		padding:0;
+	}
+
+	.contents li .inner {
+		margin:0 0 20px 0;
+	}
+
+	.footer {
+		text-align:center;
+		padding:10px;
+	}
+}
