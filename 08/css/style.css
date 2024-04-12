@@ -124,7 +124,7 @@ header .logo img {
 
 /*****************  TEXT  *****************/
 #section01 {
-  background: rgb(255, 197, 202);
+  background: linear-gradient(#ffc5ca, #fcc2a2);
 }
 
 #section01 .container {
@@ -178,12 +178,12 @@ header .logo img {
 #section01 .svg-wrap .mask-box.mask-box1 {
   left: 10%;
   bottom: 10%;
-  animation: maskAni1 10s linear Infinite;
+  animation: maskAni1 10s linear infinite;
 }
 #section01 .svg-wrap .mask-box.mask-box2 {
   right: 10%;
   bottom: 30%;
-  animation: maskAni2 10s linear Infinite;
+  animation: maskAni2 10s linear infinite;
 }
 
 @keyframes maskAni1 {
@@ -213,7 +213,7 @@ header .logo img {
 #section01 .svg-wrap .line-box circle {
   stroke-dasharray: 700;
   stroke-dashoffset: 0;
-  animation: lineAni 2s linear Infinite;
+  animation: lineAni 2s linear infinite;
 }
 
 @keyframes lineAni {
